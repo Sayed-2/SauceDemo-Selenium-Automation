@@ -1,8 +1,9 @@
 # SauceDemo Selenium Automation
 
-Automated UI testing project for the SauceDemo web application using Java, Selenium WebDriver, TestNG, Cucumber, and Maven.
+Automated UI testing framework for the [SauceDemo](https://www.saucedemo.com/) web application using Java, Selenium WebDriver, TestNG, Cucumber, Maven, and the Page Object Model (POM).
 
 ## Technologies
+
 - Java
 - Selenium WebDriver
 - TestNG
@@ -11,38 +12,29 @@ Automated UI testing project for the SauceDemo web application using Java, Selen
 - Page Object Model (POM)
 - Git / GitHub
 
+## Automated Test Scenarios
 
-- ## Automated Test Scenarios
-- Successful login
-- Negative login validation
-- Products page verification
-- Add product to cart
-- Checkout with valid information
-- Checkout validation with missing information
-- Complete order
-
+1. Successful login
+2. Negative login validation
+3. Products page verification
+4. Add product to cart
+5. Checkout with valid information
+6. Checkout validation with missing information
+7. Complete order
 
 ## Project Structure
 
-src/test/java/com/saucedemo
-├── pages
-├── tests
-├── step_definitions
-├── runners
-└── utilities
-
-src/test/resources
-├── features
-└── configuration.properties
-
-## How to Run
-
-1. Clone the repository.
-2. Open the project in IntelliJ IDEA.
-3. Make sure Java and Maven are configured.
-4. Run the TestNG tests from the `tests` package.
-
-Or run the tests with Maven:
-
-```bash
-mvn clean test
+```text
+src
+└── test
+    ├── java
+    │   └── com.saucedemo
+    │       ├── pages
+    │       ├── tests
+    │       ├── step_definitions
+    │       ├── runners
+    │       └── utilities
+    │
+    └── resources
+        ├── features
+        └── configuration.properties
