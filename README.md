@@ -38,3 +38,17 @@ src
     └── resources
         ├── features
         └── configuration.properties
+```
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project in IntelliJ IDEA.
+3. Make sure Java 21 and Maven are configured.
+4. Run the TestNG tests from the `tests` package.
+
+Or run the tests with Maven:
+
+```bash
+mvn clean test
+```
